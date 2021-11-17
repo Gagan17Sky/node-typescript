@@ -4,7 +4,7 @@
     "description": "Build an App with Node.js, Express, and TypeScript",
     "main": "index.js",
     "scripts": {
-        "serve": "nodemon src/app.ts"
+        "serve": "start http://localhost:3000/api-docs && nodemon src/app.ts"
     },
     "license": "MIT",
     "devDependencies": {
