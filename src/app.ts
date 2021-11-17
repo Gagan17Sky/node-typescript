@@ -8,7 +8,7 @@ const app = express();
 const swaggerDocument = require('../swagger.json');
 
 const PORT = process.env.PORT ?? 3000;
-const APP_KEY = process.env.APP_KEY ?? 'aa5ff7a6427c37e827395373b2da22e3';
+const APP_KEY = process.env.APP_KEY ?? 'DEFAULTTOKEN';
 const BASE_URL =  process.env.BASE_URL ?? 'http://api.openweathermap.org';
 
 const CONFIGURED_URL = BASE_URL + '/data/2.5/weather?q={city}&APPID=' + APP_KEY;
